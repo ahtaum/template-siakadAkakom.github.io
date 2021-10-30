@@ -1,0 +1,846 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #89d4cf;
+	background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* halaman login form */
+form .img {
+	width: 100%;
+}
+
+.form-group {
+	width: 30%;
+	height: auto;
+	background: white;
+	padding: 60px;
+	transform: translateY(3%) translateX(111%);
+	border: 3px solid;
+	border-radius: 20px;
+	box-shadow: 10px 10px 50px #888888;
+	transition: 1s;
+}
+
+.btn {
+	margin-top: 10px;
+}
+
+.form-group h4 {
+	margin-top: -30px;
+	font-weight: lighter;
+}
+
+.form-group h6 {
+	color: #e61c3a !important;
+	font-family: Comic Sans MS,sans-serif;
+}
+
+.form-group h5 {
+	margin-top: 15px;
+}
+
+
+/* agar web responsive */
+/* Halaman Login */
+@media only screen and (max-width: 1024px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 75%;
+		height: auto;
+		background: white;
+		padding: 100px;
+		transform: translateY(20%) translateX(15%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 85%;
+		height: auto;
+		background: white;
+		padding: 105px;
+		transform: translateY(10%) translateX(9%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 704px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 60%;
+		height: auto;
+		background: white;
+		padding: 60px;
+		transform: translateY(3%) translateX(33%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 450px) {
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 75%;
+		height: auto;
+		background: white;
+		padding: 60px;
+		transform: translateY(2%) translateX(15%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 75%;
+		height: auto;
+		background: white;
+		padding: 60px;
+		transform: translateY(10%) translateX(15%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 75%;
+		height: auto;
+		background: white;
+		padding: 40px;
+		transform: translateY(10%) translateX(15%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 90%;
+		height: auto;
+		background: white;
+		padding: 60px;
+		transform: translateY(3%) translateX(5%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 90%;
+		height: auto;
+		background: white;
+		padding: 38px;
+		transform: translateY(3%) translateX(5%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+@media only screen and (max-width: 280px) {
+
+	form .img {
+		width: 100%;
+	}
+
+	.form-group {
+		width: 100%;
+		height: auto;
+		background: white;
+		padding: 38px;
+		transform: translateY(10%) translateX(1%);
+		border: 3px solid;
+		border-radius: 20px;
+		box-shadow: 10px 10px 50px #888888;
+		transition: 1s;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+
+	.form-group h4 {
+		margin-top: -30px;
+		font-weight: lighter;
+	}
+
+	.form-group h6 {
+		color: #e61c3a !important;
+		font-family: Comic Sans MS,sans-serif;
+	}
+
+	.form-group h5 {
+		margin-top: 15px;
+	}
+
+}
+
+/* halaman Utama */
+.navbar-brand span.sub {
+	font-size: 15px;
+	font-weight: lighter;
+}
+
+.navbar {
+	width: 100%;
+}
+
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+
+#sidebar-container {
+	min-height: 133vh;
+    background-color: #333;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.sidebar-expanded {
+    width: 230px;
+}
+
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+footer nav {
+	padding: 10px;
+}
+
+#bawahUtama {
+	margin-top: 10px;
+}
+
+/* Halaman Profil */
+#profil {
+	margin-bottom: 10px;
+}
+
+/* Halaman Informasi mata kuliah yang ditawarkan */
+#halamanInformasi h4 {
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#bawahInfo {
+	font-weight: lighter;
+}
+
+.pilihan label button {
+	padding: 2px 9px;
+	margin-bottom: 11px;
+}
+
+#bawahInfo {
+	margin-top: 10px;
+}
+
+/* Halaman Rencana Studi */
+#halamanHasilStudi {
+	margin-bottom: 30px;
+}
+
+#halamanRencanaStudi h4 {
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 10px;
+}
+
+/* Halaman Kartu Hasil Studi */
+#halamanHasilStudi #HsProfil {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#halamanHasilStudi h4 {
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#halamanHasilStudi .card-header {
+	font-weight: lighter;
+}
+
+/* Halaman Transkip Nilai */
+#ketTranskipNilaidetail {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#ketTranskipNilai {
+	padding: 30px;
+}
+
+#halamanTranskipNilai h4 {
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 10px;
+}
+
+/* Halaman Presensi */
+#halamanPresensi h4 {
+	font-weight: lighter;
+	color: white;
+	margin-bottom: 10px;
+}
+
+#halamanPresensi #tablePresensi {
+	margin-bottom: 20px;
+}
+
+/* Halaman Workshop */
+#HalamanWorkshop h4 {
+	font-weight: lighter;
+	padding: 10px;
+}
+
+#HalamanWorkshop #ketworkshop {
+	padding: 10px;
+}
+
+/* Halaman Materi Kuliah */
+#halamanMateriKuliah #HsPilihanMateriKuliah #labelpilihan {
+	padding-right: 30px;
+}
+
+#halamanMateriKuliah #HsPilihanMateriKuliah .btn {
+	margin-bottom: 7px;
+	padding: 5px 5px;
+}
+
+#halamanMateriKuliah #HsPilihanMateriKuliah #labelpilihankelas {
+	padding-right: 110px;
+}
+
+#halamanMateriKuliah #HsPilihanMateriKuliah #cariJudul {
+	margin-top: 15px;
+}
+
+#halamanMateriKuliah #HsPilihanMateriKuliah #cariJudul label {
+	margin-right: 115px;
+}
+
+#halamanMateriKuliah h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+/* Halaman Tugas Kuliah */
+#halamanTugasKuliah h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+/* Halaman Agenda Kelas */
+#halamanAgendaKelas {
+	padding: 10px;
+}
+
+#halamanAgendaKelas #HsPilihanAgendaKelas #labelpilihan {
+	padding-right: 40px;
+}
+
+#halamanAgendaKelas #HsPilihanAgendaKelas #labelpilihanFrekuensi {
+	padding-right: 10px;
+	padding-bottom: 5px;
+}
+
+#halamanAgendaKelas h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+/* Halaman Agenda Pribadi */
+#halamanAgendaPribadi h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+/* Halaman Sharing File */
+#halamanFileSharing {
+	margin-bottom: 20px;
+	transform: translateX(5%);
+}
+
+#halamanFileSharing h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+#halamanFileSharing h5 {
+	font-weight: lighter;
+	padding: 10px;
+}
+
+#halamanFileSharing #kartuUpload {
+	padding-top: 10px;
+}
+
+#halamanFileSharing #kartuUpload #upload label {
+	padding-right: 10px;
+}
+#halamanFileSharing #kartuUpload #upload .form-control-file {
+	padding-bottom: 10px;
+}
+
+/* Halaman Referensi */
+#halamanReferensi h4 {
+	font-weight: lighter;
+	padding: 10px;
+	color: white;
+}
+
+/* Halaman Ubah Password */
+#UbahPassword .card {
+	padding: 20px;
+	font-weight: lighter;
+}
+
+#UbahPassword h4 {
+	font-weight: lighter;
+	padding: 10px;
+}
+
+/* yang lain */
+#halamanInformasi,#profil,#home,#halamanMataKuliah,#halamanRencanaStudi,#halamanHasilStudi,#halamanTranskipNilai,#halamanPresensi,#HalamanWorkshop,#halamanMateriKuliah,#halamanTugasKuliah,#halamanAgendaKelas,#halamanAgendaPribadi,#halamanFileSharing,#halamanReferensi,#UbahPassword {
+	margin-top: 30px;
+}
+
+/* Responsive web */
+/* nomor ukuran PX( pixel ) pada media only screen harus urut dari terbesar sampai terkecil */
+
+/* Standar Responsive klo hp dibalik */
+@media only screen and (max-width: 812px) {
+
+	/* Halaman jika dibalik hpnya */
+	#home {
+		transform: translateX(18%) translateY(-2%);
+	}
+
+	#profil {
+		transform: translateX(17%);
+	}
+
+	#halamanInformasi {
+		transform: translateX(17%) translateY(-5%);
+	}
+
+	#halamanRencanaStudi {
+		transform: translateX(17%) translateY(-5%);
+	}
+
+	#halamanHasilStudi {
+		transform: translateX(17%) translateY(1%);
+	}
+
+	#halamanTranskipNilai {
+		transform: translateX(17%) translateY(1%);
+	}
+
+	#halamanPresensi {
+		transform: translateX(17%);
+	}
+	#HalamanWorkshop {
+		transform: translateX(15%) translateY(-5%);
+	}
+
+	#halamanMateriKuliah {
+		transform: translate(17%) translateY(-5%);
+	}
+
+	#halamanTugasKuliah {
+		transform: translateX(17%) translateY(-3%);
+	}
+
+	#halamanAgendaKelas {
+		transform: translateX(17%);
+	}
+
+	#halamanAgendaPribadi {
+		transform: translateX(17%) translateY(-3%);
+	}
+
+	#halamanFileSharing {
+		transform: translateX(17%);
+	}
+
+	#halamanReferensi {
+		transform: translateX(17%) translateY(-3%);
+	}
+
+	#UbahPassword {
+		transform: translateX(17%) translateY(-3%);
+	}
+
+}
+
+/* spesifik responsive */
+@media only screen and (width: 600px) {
+	#halamanPresensi .card, #halamanTugasKuliah {
+		width: 110%;
+	}
+}
+
+/* Standar Responsive */
+@media only screen and (max-width: 450px) {
+
+/* Halaman Home */
+	#home  {
+		transform: translateX(3%) translateY(-1%);
+		width: 130%;
+	}
+
+/* Halaman Profil */
+	#profil {
+		transform: translateX(5%);
+		width: 120%;
+	}
+
+/* Halaman Informasi Mata Kuliah */
+	#halamanInformasi {
+		transform: translateX(15%);
+	}
+
+/* Halaman Kartu Rencana Studi */
+	#halamanRencanaStudi {
+		transform: translateX(35%);
+	}
+
+/* Halaman Hasil Studi */
+	#halamanHasilStudi {
+		transform: translateX(15%);
+	}
+
+/* Halaman Transkip Nilai */
+	#halamanTranskipNilai {
+		transform: translateX(15%);
+	}
+
+/* Halaman Presensi */
+	#halamanPresensi {
+		transform: translateX(15%);
+	}
+
+/* Halaman Workshop */
+	#HalamanWorkshop {
+		transform: translateX(15%);
+	}
+
+/* Halaman Materi Kuliah */
+	#halamanMateriKuliah {
+		transform: translateX(15%);
+	}
+
+/* Halaman Tugas Kuliah */
+	#halamanTugasKuliah {
+		transform: translateX(15%) translateY(-3%);
+	}
+
+/* Halaman Agenda Kelas */
+	#halamanAgendaKelas {
+		transform: translateX(15%);
+	}
+
+/* Halaman Agenda Pribadi */
+	#halamanAgendaPribadi {
+		transform: translateX(15%);
+	}
+
+/* Halaman File Sharing */
+	#halamanFileSharing {
+		transform: translateX(15%);
+	}
+
+/* Halaman Referensi */
+	#halamanReferensi {
+		transform: translateX(15%);
+	}
+
+/* Halaman Ubah Password */
+	#UbahPassword {
+		transform: translateX(7%);
+		width: 120%;
+	}
+
+}
+
+/* spesifik responsive */
+@media only screen and (max-width: 450px) {
+	#halamanRencanaStudi {
+		transform:translateX(15%) translateY(-3%);
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	#halamanRencanaStudi {
+		transform:translateX(15%) translateY(-3%);
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	#halamanRencanaStudi {
+		transform:translateX(15%) translateY(-3%);
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#halamanInformasi {
+		transform: translateX(10%);
+	}
+	#halamanRencanaStudi {
+		transform: translateX(15%) translateY(-3%);
+	}
+	#halamanAgendaPribadi {
+		transform: translateX(15%) translateY(-3%);
+	}
+	#halamanReferensi {
+		transform: translateX(15%) translateY(-3%);
+	}
+}
+
+@media only screen and (max-width: 280px) {
+	#halamanInformasi {
+		transform: translateX(5%) translateY(-5%);
+	}
+	#halamanInformasi .pilihan .form-control-sm {
+		width: 130%;
+	}
+	#halamanMateriKuliah #cariJudul input {
+		width: 90%;
+	}
+	#halamanFileSharing input {
+		width: 90%;
+	}
+	#UbahPassword {
+		transform: translateX(1%);
+		width: 130%;
+	}
+}
