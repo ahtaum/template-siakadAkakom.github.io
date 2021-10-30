@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <!-- judul dan icon web -->
+  <link rel="icon" type="image/png" href="img/1.png">
+  <title>Portal Akademik</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/stylenya.css">
+
+</head>
+<body>
+
+<!-- Sidebar nya -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="#">
+    <img src="img/1.png" width="30" height="30" align="top">
+    <span class="menu-collapsed">Portal Akademik<br>
+    <span class="menu-collapsed sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STMIK AKAKOM</span>
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav nav nav-pills">
+
+      <li class="nav-item dropdown d-sm-block d-md-none" role="tablist">
+        <a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Academics</a>
+        <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+            <a class="dropdown-item" href="#home" data-toggle="pill">Halaman Depan</a>
+            <a class="dropdown-item" href="#profil" data-toggle="pill">Informasi Pengguna</a>
+            <a class="dropdown-item" href="#halamanInformasi" data-toggle="pill">Info MataKuliah</a>
+            <a class="dropdown-item" href="#halamanRencanaStudi" data-toggle="pill">Kartu Rencana Studi</a>
+            <a class="dropdown-item" href="#halamanHasilStudi" data-toggle="pill">Kartu Hasil Studi</a>
+            <a class="dropdown-item" href="#halamanTranskipNilai" data-toggle="pill">Transkip Nilai</a>
+            <a class="dropdown-item" href="#halamanPresensi" data-toggle="pill">Prensensi</a>
+            <a class="dropdown-item" href="#HalamanWorkshop" data-toggle="pill">Workshop</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown d-sm-block d-md-none" role="tablist">
+        <a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Virtual Class</a>
+        <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+            <a class="dropdown-item" href="#halamanMateriKuliah" data-toggle="pill">Mata Kuliah</a>
+            <a class="dropdown-item" href="#halamanTugasKuliah" data-toggle="pill">Tugas Kuliah</a>
+            <a class="dropdown-item" href="#halamanAgendaKelas" data-toggle="pill">Agenda Kelas</a>
+            <a class="dropdown-item" href="#halamanAgendaPribadi" data-toggle="pill">Agenda Pribadi</a>
+            <a class="dropdown-item" href="#halamanFileSharing" data-toggle="pill">File Sharing</a>
+            <a class="dropdown-item" href="#halamanReferensi" data-toggle="pill">Referensi</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown d-sm-block d-md-none" role="tablist">
+        <a class="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Lainya</a>
+        <div class="dropdown-menu" aria-labelledby="smallerscreenmenu">
+          <a class="dropdown-item" href="#UbahPassword" data-toggle="pill">Ubah Password</a>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+
+</nav>
+
+<div class="row" id="body-row">
+    <div id="sidebar-container" class="sidebar-expanded d-none d-md-block">
+        <div class="nav nav-pills flex-column  bg-danger" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+            <a href="#home" id="homeweb" data-toggle="pill" aria-expanded="false" class="text-light nav-link active bg-dark list-group-item list-group-item-action flex-column align-items-start" role="tab">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Halaman Utama</span>
+                </div>
+            </a>
+
+            <a href="#profil" id="profilweb" data-toggle="pill" aria-expanded="false" class="text-light nav-link bg-dark list-group-item list-group-item-action flex-column align-items-start" role="tab">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Informasi Pengguna</span>
+                </div>
+            </a>
+
+                <a href="#halamanInformasi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Info MataKuliah</span>
+                </a>
+                <a href="#halamanRencanaStudi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Kartu Rencana Studi</span>
+                </a>
+                <a href="#halamanHasilStudi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Kartu Hasil Studi</span>
+                </a>
+                <a href="#halamanTranskipNilai" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Transkip Nilai</span>
+                </a>
+                <a href="#halamanPresensi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Presensi</span>
+                </a>
+                <a href="#HalamanWorkshop" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Workshop</span>
+                </a>
+
+                <a href="#halamanMateriKuliah" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Materi Kuliah</span>
+                </a>
+                <a href="#halamanTugasKuliah" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Tugas Kuliah</span>
+                </a>
+                <a href="#halamanAgendaKelas" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Agenda Kelas</span>
+                </a>
+                <a href="#halamanAgendaPribadi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Agenda Pribadi</span>
+                </a>
+                <a href="#halamanFileSharing" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">File Sharing</span>
+                </a>
+                <a href="#halamanReferensi" data-toggle="pill" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Referensi</span>
+                </a>
+
+            <a href="#UbahPassword" data-toggle="pill" aria-expanded="false" class="list-group-item list-group-item-action bg-dark text-white nav-link">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Ubah Password</span>
+                </div>
+            </a>
+
+            <a href="#sub" data-toggle="collapse" aria-expanded="false" class="text-light bg-dark list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-start align-items-center">
+                    <span class="fa fa-dashboard fa-fw mr-3"></span>
+                    <span class="menu-collapsed">Logout</span>
+                </div>
+            </a>
+
+        </div>
+    </div>
+<!-- akhir Sidebar -->
+
+<!-- Halaman Utama -->
+  <div class="col-9" id="semue">
+      <div class="tab-content" id="halamanUtama">
+
+            <div class="card tab-pane fade show active w-70" role="tabpanel" id="home" align="justify">
+              <h5 class="card-header" align="center">Selamat Datang xxxx</h5>
+              <div class="card-body">
+                <p class="card-text">Selamat Datang di Portal Akademik. Portal Akademik adalah sistem yang memungkinkan para civitas akademika STMIK AKAKOM untuk menerima informasi dengan lebih cepat melalui Internet. Sistem ini diharapkan dapat memberi kemudahan setiap civitas akademika untuk melakukan aktivitas-aktivitas akademik dan proses belajar mengajar. Selamat menggunakan fasilitas ini.</p>
+                <label class="blockquote"><strong>Disclamer</strong></label>
+                <p class="card-text">Aplikasi Portal Akademik ini berfungsi sebagai alat bantu penyedia/penyaji informasi berupa interface publik yang menjembatani publik dengan aplikasi Sistem Informasi Akademik di seluruh program studi. Semua informasi akademik di portal akademik diperoleh secara langsung dari fakultas, melalui infrastruktur jaringan intranet kampus. Data yang terlihat di Portal Akademik sama dengan yang ada di fakultas, oleh karena itu data di Portal Akademik sangat bergantung pada validitas data di fakultas. Secara formal, data yang valid adalah data yang telah diotorisasi oleh dekan fakultas maupun BAA .</p>
+                <center><a href="#" class="card-link">Panduan</a></center>
+              </div>
+            </div>
+
+<!-- Halaman Profil -->
+          <div class="card text-center tab-pane fade" id="profil">
+
+            <div class="card-header">
+                <h5>Profil Mahasiswa</h1>
+            </div>
+
+            <div class="card-body">
+                <table class="table table-striped table-responsive-sm">
+                  <tbody>
+                    <tr>
+                      <td>Nim</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Alamat</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Agama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Jenis Kelamin</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Asal SLTA</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Tanggal Terdaftar</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nama Orang Tua (Ayah / Ibu)</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Alamat Orang Tua</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Warga Negara</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Status</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>No. Telp/HP</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+            </div>
+            </div>
+
+<!-- Halaman Informasi mata kuliah yang ditawarkan -->
+          <div id="halamanInformasi" class="tab-pane fade container">
+
+            <h4 class="text-center">Informasi Mata Kuliah yang Ditawarkan</h4>
+
+              <div class="pilihan">
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Manajemen Informatika</option>
+                  <option>Komputerisasi Akuntasi</option>
+                  <option>Teknik Komputer</option>
+                  <option>Informatika</option>
+                  <option>Manajemen Informatika</option>
+                  <option>Sistem Informasi</option>
+                  <option>Manajemen Informatika S1 (TI)</option>
+                </select>
+                <label for="contoh"><button type="button" class="btn btn-primary">Lihat</button></label>
+              </div>
+
+                <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Semester X
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body table-responsive-lg">
+                    <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th scope="col">No</th>
+                          <th scope="col">Kode</th>
+                          <th scope="col">Mata Kuliah</th>
+                          <th scope="col">Nama Dosen</th>
+                          <th scope="col">Kelas</th>
+                          <th scope="col">W/P</th>
+                          <th scope="col">SKS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Semester X
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body table-responsive-lg">
+                    <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th scope="col">No</th>
+                          <th scope="col">Kode</th>
+                          <th scope="col">Mata Kuliah</th>
+                          <th scope="col">Nama Dosen</th>
+                          <th scope="col">Kelas</th>
+                          <th scope="col">W/P</th>
+                          <th scope="col">SKS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Semester X
+                    </button>
+                  </h5>
+                </div>
+
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body table-responsive-lg">
+                    <table class="table table-sm">
+                      <thead>
+                        <tr>
+                          <th scope="col">No</th>
+                          <th scope="col">Kode</th>
+                          <th scope="col">Mata Kuliah</th>
+                          <th scope="col">Nama Dosen</th>
+                          <th scope="col">Kelas</th>
+                          <th scope="col">W/P</th>
+                          <th scope="col">SKS</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                          <td>xxx</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+<!-- halaman Kartu Rencana Studi -->
+          <div id="halamanRencanaStudi" class="tab-pane fade">
+
+            <h4 class="text-center">Kartu Rencana Studi</h4>
+
+            <div class="card" id="krs">
+              <div class="card-body">
+                <h5 class="card-header text-center">Bukan Priode KRS</h5>
+                <table class="table table-striped table-responsive-sm">
+                  <tbody>
+                    <tr>
+                      <td>Nim</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Program Studi</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Semester</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Maksimum SKS</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Dosen Pembimbing Akademik</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h6 class="card-header text-center text-danger">Anda belum mengisi KRS</h6>
+              </div>
+            </div>
+
+          </div>
+
+<!-- Halaman Kartu Hasil Studi -->
+          <div id="halamanHasilStudi" class="tab-pane fade">
+
+            <h4 class="text-center">Kartu Hasil Studi</h4>
+
+            <div class="card table-responsive-lg" id="HsProfil">
+              <table class="table table-striped">
+                  <tbody>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nim</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Program Studi</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Semester</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+            <div id="HsPilihan">
+              <select class="form-control-sm" id="exampleFormControlSelect1">
+                <option>Semester x / x</option>
+                <option>Semester x / x</option>
+                <option>Semester x / x</option>
+              </select>
+              <label for="contoh"><button type="button" class="btn btn-primary">Lihat</button></label>
+            </div>
+
+            <div class="card" id="krs">
+              <div class="card-body table-responsive-sm">
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Kode</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">Nama Dosen</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">W/P</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Nilai</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+            <div class="card-header bg-light text-black">
+              <p>Jumlah SKS diambil : X</p>
+              <p>Jumlah mata kuliah diambil : X</p>
+              <p>IP Semester : X</p>
+            </div>
+        </div>
+
+<!-- Halaman Transkip Nilai -->
+        <div id="halamanTranskipNilai" class="tab-pane fade">
+
+            <h4 class="text-center">Transkip Nilai</h4>
+
+            <div class="card table-responsive-lg" id="HsProfil">
+              <table class="table table-striped">
+                  <tbody>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nim</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Program Studi</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+            <div class="card" id="krs">
+              <div class="card-body table-responsive-sm">
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Semester</th>
+                        <th scope="col">Kode</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">SKS</th>
+                        <th scope="col">Nilai</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+            <div class="card-header bg-light text-black">
+              <p>Prestasi Akademik : x<br>Jumlah SKS diambil : x<br>Jumlah mata kuliah diambil : x<br>IP Kumulatif  : x</p>
+            </div>
+            <div class="card" id="ketTranskipNilaidetail">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#ketTranskipNilai" aria-expanded="true" aria-controls="collapseOne">
+                    Detail
+                  </button>
+                </h5>
+              </div>
+              <div id="ketTranskipNilai" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <p>Keterangan Nilai : <br>A  : 4.00<br>B  : 3.00<br>C  : 2.00<br>D  : 1.00<br>E  : 0.00</p>
+                <button type="button" class="btn btn-primary">Cetak</button>
+              </div>
+        </div>
+      </div>
+
+<!-- Halaman Presensi -->
+        <div id="halamanPresensi" class="tab-pane fade">
+
+            <h4 class="text-center">Presensi</h4>
+
+            <div id="HsPilihanPresensi">
+              <select class="form-control-sm" id="exampleFormControlSelect1">
+                <option>Semester x / x</option>
+                <option>Semester x / x</option>
+                <option>Semester x / x</option>
+              </select>
+              <label for="contoh"><button type="button" class="btn btn-primary">Lihat</button></label>
+            </div>
+
+            <div class="card table-responsive-xl" id="HsProfil">
+              <table class="table table-striped">
+                  <tbody>
+                    <tr>
+                      <td>Nama</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Nim</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Program Studi</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                    <tr>
+                      <td>Semester</td>
+                      <td>:</td>
+                      <td>xxxxxxx</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+
+            <div class="card" id="tablePresensi">
+              <div class="table-responsive-sm">
+                  <table class="table table-sm">
+                    <thead>
+                      <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">Kode</th>
+                        <th scope="col">Kelas</th>
+                        <th scope="col">Jumlah Kuliah</th>
+                        <th scope="col">HDR</th>
+                        <th scope="col">Ijin</th>
+                        <th scope="col">Sakit</th>
+                        <th scope="col">Alpa</th>
+                        <th scope="col">HDR(%)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                        <td>xxx</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+          </div>
+        </div>
+
+<!-- Halaman Workshop -->
+        <div class="card tab-pane fade" id="HalamanWorkshop">
+          <h4 align="center">Informasi Workshop</h4>
+          <div class="card-header bg-light text-black">
+              <h6>Keterangan : </h6>
+              <p>Workshop berisi informasi yang berkaitan dengan kegiatan-kegiatan workshop yang sedang maupun akan dilaksanakan.</p>
+          </div>
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#ketworkshop" aria-expanded="true" aria-controls="collapseOne">
+                Workshop
+              </button>
+            </h5>
+          </div>
+          <div id="ketworkshop" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <p>tidak ada data yang ditemukan</p>
+          </div>
+        </div>
+
+<!-- Halaman Materi Kuliah -->
+        <div id="halamanMateriKuliah" class="tab-pane fade">
+          <h4 class="text-center">Materi Kuliah</h4>
+          <div class="card">
+            <div class="card-body">
+              <div id="HsPilihanMateriKuliah">
+                <label id="labelpilihan">Pilihan Semester</label>
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Semester x / x</option>
+                  <option>Semester x / x</option>
+                  <option>Semester x / x</option>
+                </select>
+                <label for="contoh"><button type="button" class="btn btn-primary">Lihat</button></label><br>
+                <label id="labelpilihankelas">Kelas</label>
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Kelas x   </option>
+                  <option>Kelas x   </option>
+                  <option>Kelas x   </option>
+                </select><br>
+                <div id="cariJudul" class="input-group input-group-sm mb-3">
+                  <label>judul</label>
+                  <input type="text" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="masukan judul">
+                </div>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Tampilkan">
+            </div>
+          </div>
+        </div>
+
+<!-- Halaman Tugas Kuliah -->
+      <div id="halamanTugasKuliah" class="tab-pane fade">
+        <h4 class="text-center">Tugas Kuliah</h4>
+        <div class="card">
+          <div class="card-header">Semester X</div>
+          <div class="card-body">
+            <table class="table table-striped table-responsive-sm">
+              <thead>
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">Judul</th>
+                  <th scope="col">Download</th>
+                  <th scope="col">Mata Kuliah</th>
+                  <th scope="col">Waktu Awak</th>
+                  <th scope="col">Waktu Akhir</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+                <tr>
+                  <th scope="row">6</th>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                  <td>xxxxx</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+<!-- Halaman Agenda Kelas -->
+      <div id="halamanAgendaKelas" class="tab-pane fade">
+        <h4 class="text-center">Agenda Kelas</h4>
+          <div class="card">
+            <div class="card-body">
+              <div id="HsPilihanAgendaKelas">
+                <label id="labelpilihan">Kelas</label>
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Kelas x / x</option>
+                  <option>Kelas x / x</option>
+                  <option>Kelas x / x</option>
+                </select><br>
+                <label id="labelpilihanFrekuensi">Frekuensi</label>
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Insidental   </option>
+                  <option>Mingguan   </option>
+                  <option>Bulanan   </option>
+                </select><br>
+                <div class="custom-control custom-checkbox" id="ceklistAgendaMateri">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Tampilkan hanya yang belum selesai</label>
+                </div>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Tampilkan">
+            </div>
+          </div>
+          <div class="card table-responsive-sm" id="tabelHasil">
+            <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Agenda</th>
+                <th scope="col">Kelas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+      </div>
+
+<!-- Halaman Agenda Pribadi -->
+<div id="halamanAgendaPribadi" class="tab-pane fade">
+        <h4 class="text-center">Agenda Pribadi</h4>
+          <div class="card">
+            <div class="card-body">
+              <div id="HsPilihanAgendaPribadi">
+                <label id="labelpilihanFrekuensiPribadi">Frekuensi</label>
+                <select class="form-control-sm" id="exampleFormControlSelect1">
+                  <option>Insidental   </option>
+                  <option>Mingguan   </option>
+                  <option>Bulanan   </option>
+                </select><br>
+                <div class="custom-control custom-checkbox" id="ceklistAgendaMateri">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Tampilkan hanya yang belum selesai</label>
+                </div>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Tampilkan">
+              <input class="btn btn-primary" type="submit" value="Tambah" data-target="">
+            </div>
+          </div>
+          <div class="card" id="tabelHasil">
+            <table class="table table-striped table-responsive-sm">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Agenda</th>
+                <th scope="col">Kelas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+      </div>
+
+<!-- Halaman File Sharing -->
+<div id="halamanFileSharing" class="tab-pane fade">
+  <h4 class="text-center">File Sharing</h4>
+  <div class="card">
+    <div class="card-body">
+      <h5>Daftar File Sharing</h5>
+      <div id="tableSharing">
+        <table class="table table-striped table-responsive-sm">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Judul</th>
+                <th scope="col">Pengirim</th>
+                <th scope="col">Waktu Pengirim</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+  <div class="card" id="kartuUpload">
+    <div class="card-body">
+      <h5>Upload File Baru</h5>
+      <div id="upload">
+        <div class="input-group input-group-sm mb-3">
+          <label>judul</label>
+          <input type="text" aria-label="Small" aria-describedby="inputGroup-sizing-sm" placeholder="masukan judul">
+        </div>
+        <input type="file" class="form-control-file" id="fileUpload">
+        <div class="input-group input-group-sm mb-3">
+          <textarea class="form-control" rows="3" placeholder="Keterangan"></textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" value="Simpan">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Halaman Referensi -->
+<div class="tab-pane fade" id="halamanReferensi">
+  <h4 class="text-center">Referensi</h4>
+  <nav class="navbar navbar-light bg-light justify-content-between">
+    <a class="navbar-brand">Kata Kunci</a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="masukan kata kunci" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Cari</button>
+    </form>
+  </nav>
+  <div class="card">
+    <div class="card-body">
+      <h5>Daftar File Sharing</h5>
+      <div id="tableSharing">
+        <table class="table table-striped table-responsive-sm">
+            <thead>
+              <tr>
+                <th scope="col">No</th>
+                <th scope="col">Mata Kuliah</th>
+                <th scope="col">Judul</th>
+                <th scope="col">File</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+                <td>xxxxx</td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Halaman Ubah Password -->
+      <div id="UbahPassword" class="tab-pane fade">
+        <form>
+          <div class="card">
+            <div class="card-body">
+              <h4 class="text-center">Ubah Password</h4>
+              <label for="PasswordLama">Password Lama</label>
+              <input type="password" class="form-control" id="passwordyanglama" aria-describedby="emailHelp" placeholder="Masukan Password lama">
+              <label for="Passwordbaru">Password Baru</label>
+              <input type="password" class="form-control" id="passwordyangbaru" aria-describedby="emailHelp" placeholder="Masukan Password baru">
+              <label for="PasswordbaruTulisUlang">Tulis Ulang Password Baru</label>
+              <input type="password" class="form-control" id="tulisulangpasswordbaru" placeholder="Tulis ulang Password baru">
+              <button type="submit" class="btn btn-primary">Simpan</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+  </div>
+</div>
+
+<!-- Boostrap javasript -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script>
+
+  function cocokGk(cocoklah) {
+    if (cocoklah.matches) {
+      $('#semue').addClass('col-7');
+      $('#semue').removeClass('col-9');
+    }
+  }
+
+  function cocokGkDua(cocokdua) {
+    if (cocokdua.matches) {
+      $('#semue').addClass('col-8');
+      $('#semue').removeClass('col-9');
+    }
+  }
+
+  const cocok = window.matchMedia("(width: 812px)");
+  const cocokdua = window.matchMedia("(width: 823px)");
+
+  cocokGkDua(cocokdua);
+  cocokGk(cocok);
+
+  const fungsi = cocok.addListener(cocokGk);
+  const fungsidua = cocokdua.addListener(cocokGkDua);
+
+</script>
+
+</body>
+</html>"Hello World! Welcome to my website" 
